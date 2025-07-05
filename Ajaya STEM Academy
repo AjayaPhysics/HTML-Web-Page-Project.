@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ajaya STEM Academy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #3f51b5, #2196f3);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #283593;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: #e3f2fd;
+    }
+
+    .hero img {
+      max-width: 300px;
+      border-radius: 15px;
+      margin: 20px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+      margin: 20px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: #3f51b5;
+    }
+
+    .resources ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .resources li {
+      background-color: #bbdefb;
+      margin: 10px auto;
+      padding: 10px;
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: block;
+    }
+
+    .contact-form button {
+      background-color: #3f51b5;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #1a237e;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 8px;
+      font-size: 16px;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background-color: #e3f2fd;
+      color: #3f51b5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .social-icons a:hover {
+      background-color: #bbdefb;
+    }
+
+    .donation-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .donation-buttons a:hover {
+      background-color: #388e3c;
+    }
+
+    footer {
+      background-color: #1a237e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text,
+      .hero img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Ajaya STEM Academy</h1>
+    <p>Empowering Learners. Inspiring Innovators.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#materials">Materials</a>
+    <a href="#contact">Contact</a>
+    <a href="#social">Social</a>
+    <a href="#donate">Donate</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <img src="Photo 10 MB.png.png" alt="Ajaya Kumar Behera">
+    <div class="hero-text">
+      <h2>Mr. Ajaya Kumar Behera</h2>
+      <p>International Physics & Mathematics Teacher | YouTuber | STEM Educator | Founder of Ajaya STEM Academy</p>
+      <p>Delivering quality science education and inspiring the next generation of innovators.</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Ajaya STEM Academy</h2>
+    <p>Welcome to <strong>Ajaya STEM Academy</strong> – a dynamic educational platform founded by international educator <strong>Mr. Ajaya Kumar Behera</strong>. We specialise in simplifying complex concepts in <em>Physics, Mathematics, Robotics, and Computer Science</em> for learners across the world.</p>
+    <p>Explore interactive lessons, science activities, Arduino and Raspberry Pi projects, past paper solutions, and much more.</p>
+    <p>Join our mission to revolutionise STEM education by connecting with us on your favourite platforms below.</p>
+  </section>
+
+  <section class="section resources" id="materials">
+    <h2>Learning Materials</h2>
+    <ul>
+      <li>Physics Notes (Class 9 to A-Level)</li>
+      <li>Mathematics Problem Sets & Solutions</li>
+      <li>Arduino & Raspberry Pi STEM Projects</li>
+      <li>IGCSE & A-Level Video Explanations</li>
+    </ul>
+  </section>
+
+  <section class="section contact-form" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="section" id="social">
+    <h2>Connect with Me</h2>
+    <div class="social-icons">
+      <a href="https://instagram.com/ajayaphysics" target="_blank">Instagram</a>
+      <a href="https://facebook.com/AjayaPhysics" target="_blank">Facebook</a>
+      <a href="https://chat.whatsapp.com/DPD5rfcexNbIV2LIhSV4b2" target="_blank">WhatsApp</a>
+      <a href="https://linkedin.com/company/ajaya-stem-academy" target="_blank">LinkedIn</a>
+      <a href="https://youtube.com/@AjayaPhysics" target="_blank">YouTube</a>
+      <a href="https://quora.com/profile/Ajaya-Physics" target="_blank">Quora</a>
+      <a href="https://pinterest.com/ajayaphysics" target="_blank">Pinterest</a>
+      <a href="https://x.com/AjayaPhysics" target="_blank">Twitter (X)</a>
+      <a href="https://twitch.tv/ajayaphysics" target="_blank">Twitch</a>
+      <a href="https://telegram.me/Ajaya_Physics" target="_blank">Telegram</a>
+      <a href="https://github.com/AjayaPhysics" target="_blank">GitHub</a>
+      <a href="https://wechat.com/AjayaPhysics" target="_blank">WeChat</a>
+    </div>
+  </section>
+
+  <section class="section" id="donate">
+    <h2>Support & Donate</h2>
+    <p>If you’ve benefited from my content and want to support my work, you can contribute here:</p>
+    <div class="donation-buttons">
+      <a href="https://paypal.com/ncp/payment/GFZHBJR3ZQ4BJ" target="_blank">Donate via PayPal</a>
+      <a href="https://razorpay.me/@AjayaSTEMAcademy" target="_blank">Donate via Razorpay</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ajaya STEM Academy | Designed to Inspire Future Scientists</p>
+  </footer>
+</body>
+</html>
